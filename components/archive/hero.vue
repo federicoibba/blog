@@ -15,8 +15,8 @@ import { blogsPage } from '~/data'
           {{ blogsPage.description }}
         </p>
       </div>
-      <div class="px-6 justify-self-center">
-        <LogoDogpow />
+      <div class="px-6 mt-4 justify-self-center">
+        <NuxtImg class="min-h-40" src="/learning-concept.png" alt="Blog archive" />
       </div>
     </div>
   </div>

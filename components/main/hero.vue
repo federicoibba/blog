@@ -15,8 +15,8 @@ import { homePage } from '~/data'
           {{ homePage.description }}
         </p>
       </div>
-      <div class="px-6 justify-self-center">
-        <LogoDog />
+      <div class="px-6 pt-4 justify-self-center">
+        <NuxtImg src="/digital-nomad.png" alt="Blog writer" />
       </div>
     </div>
   </div>

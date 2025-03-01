@@ -16,7 +16,7 @@ import { categoryPage } from '~/data'
         </p>
       </div>
       <div class="px-6 justify-self-center">
-        <LogoDogs />
+        <NuxtImg class="min-h-52 mt-4" src="/blog-writer.png" alt="Category" />
       </div>
     </div>
   </div>
