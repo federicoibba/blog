@@ -12,7 +12,7 @@ export const footerData = {
 export const homePage = {
   title: `Federico Ibba's Blog`,
   description:
-    'This is my personal blog in which I will deep dive on technical topics regarding Web Development, from BE to FE, with: TypeScript, Vue, Nuxt, Microservices, NestJS.',
+    'Insights and thoughts on technical topics regarding Web Development, from BE to FE, with: TypeScript, Vue, Nuxt, Microservices, NestJS.',
 }
 
 export const blogsPage = {
