@@ -13,6 +13,21 @@ const path = computed(() => route.fullPath.replace('/', ''))
         <FooterLink />
         <FooterConnect />
       </div>
+
+      <div class="border-t dark:border-gray-800 mt-5 text-center p-2">
+        Credits to
+        <a href="https://github.com/nurriyad/blog" target="_blank" rel="nofollow" class="underline">Nur Riyad</a>
+        Nuxt blog project. Images from
+        <a
+          href="https://iconscout.com/contributors/delesign/illustrations"
+          target="_blank"
+          rel="nofollow"
+          class="underline"
+        >Delesign Graphics</a>.
+        <a href="/rss.xml" aria-label="Website RSS Feed">
+          <span class="px-3"><Icon name="bi:rss-fill" /></span>
+        </a>
+      </div>
     </div>
   </div>
 </template>
