@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - chore/gh-pages
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
