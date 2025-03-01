@@ -24,7 +24,7 @@ function isActive(path: string) {
       </ul>
       <ul class="flex items-center space-x-3 sm:space-x-6 text-sm sm:text-lg">
         <li>
-          <NuxtLink to="/posts" :class="{ underline: isActive('/posts') }"> Posts </NuxtLink>
+          <NuxtLink to="/blogs" :class="{ underline: isActive('/blogs') }"> Blogs </NuxtLink>
         </li>
         <li>
           <NuxtLink to="/categories" :class="{ underline: isActive('/categories') }">

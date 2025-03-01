@@ -12,7 +12,7 @@ const category = computed(() => {
 })
 
 const { data } = await useAsyncData(`category-data-${category.value}`, () =>
-  queryContent('/posts')
+  queryContent('/blogs')
     .where({ tags: { $contains: category.value } })
     .find(),
 )
