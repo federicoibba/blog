@@ -1,18 +1,18 @@
 export const navbarData = {
-  homeTitle: "Federico Ibba's Blog",
+  homeTitle: `Federico Ibba's Blog`,
 }
 
 export const footerData = {
   author: 'Federico Ibba',
-  aboutAuthor: 'Hi! I am Federico Ibba.',
-  authorInterest: 'TBD',
-  aboutTheSite: 'TBD',
+  aboutAuthor: 'Hi! I am Federico Ibba and I am a Software Engineer, currently working at TUI Musement.',
+  authorInterest: `I have experiences on the Javascript word, from BE to FE. If you have some proposal, or you want just to chat, let's connect!`,
+  aboutTheSite: 'This is my personal blog in which I will deep dive on technical topics regarding Web Development with TypeScript, Vue, Nuxt, Microservices, Nest.JS',
 }
 
 export const homePage = {
-  title: 'Welcome To My Blog Site',
+  title: `Federico Ibba's Blog`,
   description:
-    'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+    'This is my personal blog in which I will deep dive on technical topics regarding Web Development, from BE to FE, with: TypeScript, Vue, Nuxt, Microservices, NestJS.',
 }
 
 export const blogsPage = {
@@ -34,14 +34,14 @@ export const aboutPage = {
 
 export const seoData = {
   title: `Federico Ibba's Blog`,
-  ogTitle: `TBD`,
-  description: `TBD`,
-  twitterDescription: `TBD`,
+  ogTitle: `Federico Ibba's Blog`,
+  description: `Tutorials, guides and thoughs about Web Development: TypeScript, Vue, Nuxt, Microservices, NestJS.`,
+  twitterDescription: `Tutorials, guides and thoughs about Web Development: TypeScript, Vue, Nuxt, Microservices, NestJS.`,
   image:
     'https://plus.unsplash.com/premium_photo-1723849222657-e1e48a0a306e?q=80&w=2621&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   mySite: 'https://federicoibba.github.io/',
   twitterHandle: '@Ibba_F',
-  mailAddress: 'to-put@gmail.com',
+  mailAddress: 'federico.ibba9@gmail.com',
 }
 
 export const socialLinks = {
