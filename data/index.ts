@@ -45,7 +45,7 @@ export const seoData = {
 }
 
 export const socialLinks = {
-  githubLink: 'https://github.com/Ibbus93',
+  githubLink: 'https://github.com/federicoibba',
   linkedinLink: 'https://www.linkedin.com/in/federicoibba/',
   twitterLink: 'https://x.com/Ibba_F',
 }
