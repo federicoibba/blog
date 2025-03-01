@@ -42,7 +42,7 @@ useHead({
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <template v-for="post in formattedData" :key="post.title">
         <BlogCard
-          :path="post.path"
+          :path="post.path!"
           :title="post.title"
           :date="post.date"
           :description="post.description"

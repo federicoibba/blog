@@ -61,7 +61,7 @@ defineOgImage({
       <BlogCard
         v-for="post in formattedData"
         :key="post.title"
-        :path="post.path"
+        :path="post.path!"
         :title="post.title"
         :date="post.date"
         :description="post.description"
