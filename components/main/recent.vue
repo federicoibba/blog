@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 // Get Last 6 Publish Post from the content/blog directory
 const { data } = await useAsyncData('recent-post', () =>
-  queryContent('/blogs').limit(3).sort({ _id: -1 }).find(),
+  queryContent('/posts').limit(3).sort({ _id: -1 }).find(),
 )
 
 const formattedData = computed(() => {
@@ -42,7 +42,7 @@ useHead({
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <template v-for="post in formattedData" :key="post.title">
         <BlogCard
-          :path="post.path"
+          :path="post.path!"
           :title="post.title"
           :date="post.date"
           :description="post.description"

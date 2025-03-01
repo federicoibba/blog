@@ -12,7 +12,7 @@ const category = computed(() => {
 })
 
 const { data } = await useAsyncData(`category-data-${category.value}`, () =>
-  queryContent('/blogs')
+  queryContent('/posts')
     .where({ tags: { $contains: category.value } })
     .find(),
 )
@@ -61,7 +61,7 @@ defineOgImage({
       <BlogCard
         v-for="post in formattedData"
         :key="post.title"
-        :path="post.path"
+        :path="post.path!"
         :title="post.title"
         :date="post.date"
         :description="post.description"
