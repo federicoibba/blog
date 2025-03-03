@@ -31,7 +31,7 @@ export const aboutPage = {
   aboutMe: [
     'My journey with Computer Science started when I was four and I liked to play games in my father PC using MS-DOS.', 
     'Today I am a Software Engineer, passionate about Web Development and mainly focused on Frontend. I like to work with <b>Typescript</b>, <b>Vue</b>, <b>Nuxt</b>, but also <b>AWS</b>, <b>ExpressJS</b> and <b>NestJS</b>.',
-    'One topic that I am really passionate about by years is the MicroFrontend world and I like to implement them in my daily work when it is convenient.',
+    'One topic that I am really passionate about for years is the MicroFrontend world and I like to implement them in my daily work when it is convenient.',
     'In the last months, I am studying to learn more about the Backend with the goal to became a Full Stack Engineer, so that I can accomplish my dream to be an Architect one day.',
   ],
 }
