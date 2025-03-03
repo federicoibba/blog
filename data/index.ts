@@ -28,7 +28,12 @@ export const categoryPage = {
 export const aboutPage = {
   title: 'Federico Ibba',
   description: 'Software Engineer',
-  aboutMe: 'TBD',
+  aboutMe: [
+    'My journey with Computer Science started when I was four and I liked to play games in my father PC using MS-DOS.', 
+    'Today I am a Software Engineer, passionate about Web Development and mainly focused on Frontend. I like to work with <b>Typescript</b>, <b>Vue</b>, <b>Nuxt</b>, but also <b>AWS</b>, <b>ExpressJS</b> and <b>NestJS</b>.',
+    'One topic that I am really passionate about by years is the MicroFrontend world and I like to implement them in my daily work when it is convenient.',
+    'In the last months, I am studying to learn more about the Backend with the goal to became a Full Stack Engineer, so that I can accomplish my dream to be an Architect one day.',
+  ],
 }
 
 export const seoData = {
@@ -47,6 +52,7 @@ export const socialLinks = {
   githubLink: 'https://github.com/federicoibba',
   linkedinLink: 'https://www.linkedin.com/in/federicoibba/',
   twitterLink: 'https://x.com/Ibba_F',
+  resumeLink: 'https://drive.google.com/file/d/1IZY_RvkIN4t_S6CX7_rySdHV3PVaqe8I/view'
 }
 
 export const siteMetaData = [

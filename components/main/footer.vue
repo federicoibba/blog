@@ -24,9 +24,6 @@ const path = computed(() => route.fullPath.replace('/', ''))
           rel="nofollow"
           class="underline"
         >Delesign Graphics</a>.
-        <a href="/rss.xml" aria-label="Website RSS Feed">
-          <span class="px-3"><Icon name="bi:rss-fill" /></span>
-        </a>
       </div>
     </div>
   </div>

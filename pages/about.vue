@@ -54,6 +54,14 @@ defineOgImageComponent('About', {
               >
                 <Icon name="fa:twitter-square" size="1em" />
               </NuxtLink>
+              <NuxtLink
+                :to="socialLinks.resumeLink"
+                target="_blank"
+                class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
+                aria-label="Resume"
+              >
+                <Icon name="fa-regular:file-pdf" size="1em" />
+              </NuxtLink>
             </div>
           </div>
           <div class="sm:hidden block col-span-3 pb-5 dark:text-[#F1F2F4]">
@@ -64,7 +72,7 @@ defineOgImageComponent('About', {
           {{ aboutPage.description }}
         </h3>
 
-        <p>{{ aboutPage.aboutMe }}</p>
+        <p v-for="(paragraph, index) in aboutPage.aboutMe" :key="`${index}-aboutme-p`" class="pb-2" v-html="paragraph" />
       </div>
       <div class="hidden sm:block col-span-3">
         <NuxtImg src="/profile.jpg" width="450" height="500" quality="50" class="rounded-md" />

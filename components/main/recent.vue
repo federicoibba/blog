@@ -35,7 +35,7 @@ useHead({
 <template>
   <div class="pb-10 px-4">
     <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
-      <Icon name="mdi:star-three-points-outline" size="2em" class="text-black dark:text-zinc-300" />
+      <Icon name="solar:atom-linear" size="2em" class="text-black dark:text-zinc-300" />
       <h2 class="text-4xl font-semibold text-black dark:text-zinc-300">Recent Post</h2>
     </div>
 
